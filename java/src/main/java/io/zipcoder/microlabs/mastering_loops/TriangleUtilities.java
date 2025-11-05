@@ -23,12 +23,10 @@ public class TriangleUtilities {
     // hmm
     
     public static String getSmallTriangle() {
-        String smallTriangle = numberOfRows(i) + triangle(i) {
-            return smallTriangle;
-        }
+        return getTriangle(4);
     }
 
     public static String getLargeTriangle() {
-        return null;
+        return getTriangle(9);
     }
 }
